@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(176, 223, 255);
+  }
+  header{
+    background-color: #5ab9f0d2;
+  }
+  h1{
+    font-family: "Monserrat", sans-serif;
+    font-style: italic; 
+     font-size: 50px;
+    color:#23518c;
+    margin-block: 21px;
+    text-align: center;
+  }
+  div{
+    text-align: center;
+    font-style: italic;
+}
+  
+  .reparto
+  {
+    text-align: center;
+    font-style: "Monserrat", sans-serif;
+    font-size: 20px;
+  }
+  .contenedor-imagenes{
+    text-align: center;
+   
+  }.donna-1{
+    width: 350px;
+    height: 350px;
+    
+   
+  }
+  .donna-2{
+   width: 360px;
+   height: 350px;
+  }
+  .papeles{
+    border-top: 17px solid #d754ffc7;
+    border-bottom: 17px solid #d754ffc7;
+    border-left: 17px solid #d754ffc7;
+    border-right: 17px solid #d754ffc7;
+    border-width: 8px;
+    border-radius: 94px 7px;
+    margin-top: 25px;
+    padding: 27px;
+    font-style: italic;
+   margin: auto;
+   font-style: "Monserrat", sans-serif;
+   width: 600px;
+   margin-top: 25px;
+  }
+  .sophie-1,.sophie-2{
+    width: 360px;
+    height: 350px;
+
+  }
+.tanya-1{
+  width: 380px;
+  height: 350px;
+}
+
+.tanya-2 {
+  width: 320px;
+  height: 350px;
+ 
+}
+.rosie-1{
+  width: 300px;
+  height: 320px;
+}
+.rosie-2{
+width: 275px;
+height: 320px;
+}
+aside{
+  text-align: center;
+  margin-top: 20px;
+  font-style: "Monserrat", sans-serif;
+  font-size: 14px;
+}
+.sam-1{
+  width: 300;
+  height: 350px;
+}
+.harry-1{
+width: 290px;
+height: 400px;
+}
+.bill-1{
+  width: 325px;
+  height: 320px;
+}
+.footer-texto{
+  margin-top: 50px;
+  display: inline-block;
+  margin-right: 50px;
+  font-family:"Monserrat", sans-serif;
+  font-size: 16px;
+  margin-block: 21px;
+  font-style: italic;
+}
+footer{
+ text-align: center;
+  background-color: #5ab9f0d2;
+  margin-top: 30px;
+  width: 100%;
+  
+ 
+}
+.sky-1{
+  width: 378px;
+  height: 300px;
+}

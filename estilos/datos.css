@@ -1,0 +1,161 @@
+body{
+    background-color: rgb(176, 223, 255);
+  }
+  header{
+      background-color: #5ab9f0d2;
+    
+    
+  
+    
+  }
+    h1{
+      font-family: "Monserrat", sans-serif;
+      font-style: italic; 
+       font-size: 50px;
+      color:#23518c;
+      margin-block: 21px;
+      text-align: center;
+    }
+    div{
+      text-align: center;
+      font-style: italic;
+  }
+  .estudio
+  {
+    text-align: center;
+  }
+  .infoestudios
+  {
+    text-align: center;
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+  }
+  .contenedor-imagenes{
+    text-align: center;
+  }
+  .logo1, .logo2, .logo3 {
+    width: 200px;
+    height: 200px;
+  }
+  h3 {
+      font-family: "Monserrat", sans-serif;
+      font-style: italic; 
+      text-align: center;
+      margin-bottom: 0px;
+  }
+  .efectosespeciales{
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    width: 600px;
+    margin: auto;
+    margin-top: 0px;
+    padding: 21px;
+  }
+  h4 {
+    font-family: "Monserrat", sans-serif;
+    font-style: italic; 
+    text-align: center;
+    font-size: 19px;
+  }
+  .datoscuriosos{
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 15px;
+    border-top: 17px solid #16bdffab;
+   border-bottom: 17px solid #16bdffab;
+   border-left: 17px solid #16bdffab;
+   border-right: 17px solid #16bdffab;
+   border-width: 8px;
+   border-radius: 15px/15px;
+   padding: 24px;
+  }
+  .grabacion{
+    font-size: 16px;
+    width: 600px;
+    margin: auto;
+  }
+  .procesograbacion{
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 15px;
+    border-top: 17px solid #1641ffab;
+   border-bottom: 17px solid #1641ffab;
+   border-left: 17px solid #1641ffab;
+   border-right: 17px solid #1641ffab;
+   border-width: 8px;
+   border-radius: 15px/15px;
+   padding: 24px;
+  }
+  h5 {
+    font-family: "Monserrat", sans-serif;
+    font-style: italic; 
+    text-align: center;
+    font-size: 19px;
+  }
+  .premios{
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 15px;
+    border-top: 17px solid #3917faab;
+   border-bottom: 17px solid #3917faab;
+   border-left: 17px solid #3917faab;
+   border-right: 17px solid #3917faab;
+   border-width: 8px;
+   border-radius: 15px/15px;
+   padding: 24px;
+  }
+  h6{
+    font-family: "Monserrat", sans-serif;
+    font-style: italic; 
+    text-align: center;
+    font-size: 19px;
+  }
+.impacto {
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    font-size: 15px;
+    border-top: 17px solid #3917faab;
+   border-bottom: 17px solid #3917faab;
+   border-left: 17px solid #3917faab;
+   border-right: 17px solid #3917faab;
+   border-width: 8px;
+   border-radius: 15px/15px;
+   padding: 24px;
+}
+.footer-texto{
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    font-family:"Monserrat", sans-serif;
+    font-size: 16px;
+    margin-block: 21px;
+    font-style: italic;
+  
+  }
+  footer{
+   text-align: center;
+    background-color: #5ab9f0d2;
+    margin-top: 30px;
+    width: 100%;
+   
+  }
+  .bandasonora
+  {
+    text-align: center;
+    font-size: 14px;
+    font-family:"Monserrat", sans-serif;
+    font-style: italic;
+  }

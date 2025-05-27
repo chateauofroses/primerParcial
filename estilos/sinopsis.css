@@ -1,0 +1,123 @@
+body{
+  background-color: rgb(176, 223, 255);
+}
+header{
+    background-color: #5ab9f0d2;
+}
+h1{
+  font-family: "Monserrat", sans-serif;
+  font-style: italic; 
+   font-size: 50px;
+  color:#23518c;
+  margin-block: 21px;
+  text-align: center;
+}
+div{
+  text-align: center;
+  font-style: italic;
+}
+  
+  .elenco1{
+    width: 303px;
+    height: 455px;
+    margin-top: 20px;
+  }
+  .contenedor-imagen
+  {
+    text-align: center;
+  }
+  .sinopsis{
+    border-top: 17px solid #57a0ff;
+    border-bottom: 17px solid #57a0ff;
+    border-left: 17px solid#57a0ffc7;
+    border-right: 17px solid #57a0ffc7;
+    border-width: 8px;
+    border-radius: 120rem/15rem;
+    margin-top: 25px;
+    padding: 28px;
+    font-style: italic;
+   margin: auto;
+   font-style: "Monserrat", sans-serif;
+   width: 600px;
+   margin-top: 25px;
+  }
+  .contexto
+  {
+   font-style: "Monserrat", sans-serif;
+   font-style: italic;
+   text-align: center;
+   margin-top: 25px;
+  }
+  .peli-1,.peli-2{
+    width: 303px;
+    height: 455px;
+
+  }
+  .contextodef
+  {
+    border-top: 17px solid #3d7aff;
+    border-bottom: 17px solid #3d7aff;
+    border-left: 17px solid#3d7affa2;
+    border-right: 17px solid #3d7affa2;
+    border-width: 8px;
+    border-radius: 120rem/15rem;
+    margin-top: 25px;
+    padding: 28px;
+    font-style: italic;
+   margin: auto;
+   font-style: "Monserrat", sans-serif;
+   width: 600px;
+   margin-top: 25px;
+  }
+  .peli-3{
+    width: 303px;
+    height: 455px;
+   
+  }
+  aside{
+    text-align: center;
+    margin-top: 20px;
+    font-style: "Monserrat", sans-serif;
+    font-size: 14px;
+  }
+
+
+  .analisis{
+    font-style: "Monserrat", sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 25px;
+  }
+  .analisiscine
+  {
+    border-top: 17px solid #2b6effe1;
+    border-bottom: 17px solid #2b6effe1;
+    border-left: 17px solid #2b6effbb;
+    border-right: 17px solid #2b6effbb;
+    border-width: 8px;
+    border-radius: 120rem/15rem;
+    margin-top: 25px;
+    padding: 28px;
+    font-style: italic;
+   margin: auto;
+   font-style: "Monserrat", sans-serif;
+   width: 600px;
+   margin-top: 25px;
+  }
+  .footer-texto{
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    font-family:"Monserrat", sans-serif;
+    font-size: 16px;
+    margin-block: 21px;
+    font-style: italic;
+   
+  
+  }
+  footer{
+   text-align: center;
+    background-color: #5ab9f0d2;
+    margin-top: 30px;
+    width: 100%;
+  }
