@@ -1,0 +1,133 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #555;
+    background: #aee3ee;
+    background: radial-gradient(circle, rgba(174, 227, 238, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.titulo-principal-web {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #23518c;
+    text-align: center;
+    margin-block: 21px;
+    margin-bottom: 0;
+}
+
+.header-principal {
+    background-color: #5ab9f0;
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-principal {
+    width: auto;
+    margin-top: 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: #23518c;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 3px 0;
+    position: relative;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #ff69b4;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #ff69b4;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.footer-sitio {
+    background-color: #5ab9f0d2;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #23518c;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+.footer-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    font-style: italic;
+    color: #23518c;
+    margin: 0;
+}
+
+.footer-info-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer-texto-item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    color: #23518c;
+    margin: 0;
+    white-space: nowrap;
+}

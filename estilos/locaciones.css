@@ -1,168 +1,282 @@
-body{
-  background-color: rgb(176, 223, 255);
-}
-header{
-    background-color: #5ab9f0d2;
-  
-  
-
-  
-}
-  h1{
-    font-family: "Monserrat", sans-serif;
-    font-style: italic; 
-     font-size: 50px;
-    color:#23518c;
-    margin-block: 21px;
+.titulo-principal,
+.areas-importantes,
+.titulo-prod {
     text-align: center;
-  }
-  div{
+    font-size: 2.2rem;
+    color: #23518c;
+    margin: 2rem auto 1.5rem auto;
+    max-width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.contenedor-lugaresprinc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-destino {
+    background: linear-gradient(135deg, #E0F7FA, #B2EBF2, #81D4FA);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    font-style: italic;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
 }
-.l1{
+
+.card-destino:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.card-destino .isla-destino {
+    font-size: 1.8rem;
+    color: #23518c;
+    margin: 1.5rem 0 1rem;
+    padding: 0 15px;
+}
+
+.card-destino .marco-foto {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-destino .isla-turismo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.card-destino .marco-foto:hover .isla-turismo {
+    transform: scale(1.1);
+    filter: brightness(0.8);
+}
+
+.card-destino .descripcion-destino {
+    padding: 15px 25px;
+    font-size: 1.05rem;
+    color: #555;
+    text-align: justify;
+    flex-grow: 1;
+}
+
+.card-destino aside {
+    background-color: rgba(235, 250, 255, 0.9);
+    border-top: 1px solid #dcdcdc;
+    padding: 15px 25px;
+    width: 100%;
+}
+
+.card-destino aside .visitarislas {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #23518c;
+}
+
+.card-destino aside .links-a-turismo {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card-destino aside .links-a-turismo li {
+    margin-bottom: 5px;
+}
+
+.card-destino aside .links-a-turismo a {
+    color: #ff69b4;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.card-destino aside .links-a-turismo a:hover {
+    color: #23518c;
+}
+
+.contenedor-lugares-importantes {
+    padding: 20px;
+    max-width: 900px;
+    margin: 3rem auto;
+    background: linear-gradient(135deg, #E0F7FA, #B2EBF2, #81D4FA);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-lugar-importante {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+}
+
+.fotos-importante {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.fotos-importante img {
+    width: calc(50% - 10px);
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.fotos-importantes img:hover {
+    transform: scale(1.03);
+}
+
+.card-lugar-importante .texto-lugares {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: justify;
+    padding: 0 15px;
+    max-width: 750px;
+    margin-top: 10px;
+}
+
+.detalles-direc-prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 3rem auto;
+    align-items: flex-start;
+}
+
+.card-prod {
+    background: linear-gradient(135deg, #E0F7FA, #B2EBF2, #81D4FA);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
     text-align: center;
-    font-family: "Monserrat", sans-serif;
-    font-size: 23px;
-    margin-top: 30px;
-    font-style: italic;
-}
-.contenedor{
-   text-align: center;
-}
-.il1{
-   text-align: center;
-  width: 400px;
-   height: 250px;
-}.il2{
-  width: 400px;
-  height: 250px;
-
-  }
-h3{
-text-align: center;
-font-size: 20px;
-font-family: "Monserrat", sans-serif;
-font-style: italic;
-margin-top: 30px;
-}
-.t1 {
-
-  border-top: 17px solid #d754ffc7;
-  border-bottom: 17px solid #d754ffc7;
-  border-left: 17px solid #d754ffc7;
-  border-right: 17px solid #d754ffc7;
-  border-width: 8px;
-  border-radius: 12px 70px;
-  font-family:"Monserrat", sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  width: 600px;
-  margin: auto;
-  margin-top: 25px;
-  padding: 21px;
-}
-.il3{
- width: 400px;
- height: 250px;
-
-}
-.il4 {
-  width: 400px;
-  height: 250px;
-  padding-inline: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contenedor2{
-text-align: center;
+.card-prod:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
 
+.card-prod .sub-prod {
+    color: #23518c;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
 }
-.t2{
-width: 600px;
-margin: auto;
-margin-top: 25px;
 
+.card-prod .descripcion-prod {
+    font-size: 1rem;
+    color: #555;
+    text-align: justify;
 }
-.t4{
-text-align: center;
-font-size: 20px;
-font-family: "Monserrat", sans-serif;
-font-style: italic;
 
+.card-equipo {
+    background: linear-gradient(135deg, #E0F7FA, #B2EBF2, #81D4FA);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    padding: 20px;
+    flex: 2;
+    min-width: 300px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.t6{
- 
-  border-top: 17px solid rgba(52, 140, 255, 0.993);
-  border-bottom: 17px solid rgba(52, 140, 255, 0.993);
-  border-left: 17px solid rgba(52, 140, 255, 0.993);
-  border-right: 17px solid rgba(52, 140, 255, 0.993);
-  border-width: 8px;
-  border-radius: 82px 60px;
-  font-family:"Monserrat", sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  width: 600px;
-  margin: auto;
-  margin-top: 25px;
-  padding: 25px;
-}
-.gn{
-  text-align: center;
- font-size: 20px;
- font-family: "Monserrat", sans-serif;
- font-style: italic;
-}
-.contenedor3{
- text-align: center;
-}
-.ds{
-  border-top: 17px solid rgba(52, 140, 255, 0.993);
-  border-bottom: 17px solid rgba(52, 140, 255, 0.993);
-  border-left: 17px solid rgba(52, 140, 255, 0.993);
-  border-right: 17px solid rgba(52, 140, 255, 0.993);
-  border-width: 8px;
-  border-radius: 82px 60px;
-  font-family:"Monserrat", sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  width: 600px;
-  margin: auto;
-  margin-top: 25px;
-  padding: 25px;
-}
-.contenedor4{
-  text-align: center;
-}
-.img6{
-  width: 200px;
-  height: 250px;
-}
-.visitarislas{
-  font-family:"Monserrat", sans-serif;
-  font-style: italic;
-  font-size: 14px;
-  margin-top: 20px;
-}
-aside {
-text-align: center;
-}
-.links{
-  list-style-type: none;
-}
-.footer-texto{
-  margin-top: 50px;
-  display: inline-block;
-  margin-right: 50px;
-  font-family:"Monserrat", sans-serif;
-  font-size: 16px;
-  margin-block: 21px;
-  font-style: italic;
 
+.card-equipo:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
 }
-footer{
- text-align: center;
-  background-color: #5ab9f0d2;
-  margin-top: 30px;
-  width: 100%;
- 
+
+.card-equipo .sub-equipo {
+    color: #23518c;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.ficha-persona {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dcdcdc;
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.ficha-persona:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.ficha-persona .foto-persona {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ff69b4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    flex-shrink: 0;
+}
+
+.ficha-persona .datos-persona {
+    text-align: left;
+    flex-grow: 1;
+    min-width: 0;
+}
+
+.ficha-persona .nombre-persona {
+    font-size: 1.3rem;
+    color: #23518c;
+    margin-bottom: 8px;
+}
+
+.ficha-persona .biografia-persona {
+    font-size: 0.95rem;
+    color: #666;
+    text-align: justify;
+    padding-right: 10px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

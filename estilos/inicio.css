@@ -1,82 +1,81 @@
+.info-pelicula {
+    padding: 40px 20px;
+    text-align: center;
+}
 
-body {
-    background-color: rgb(176, 223, 255);
-}
-h1 {
-    font-size: 100;
-}
-h1{
-    text-align: center;
-}
-h1{
-    font-family: "Monserrat", sans-serif;
-    font-style: italic; 
-     font-size: 50px;
-    color:#23518c;
-    margin-block: 21px;
-    }
-header{
-    background-color:#5ab9f0d2;
-}
-div{
-    text-align: center;
+.intro {
+    font-size: 1.5em;
+    font-weight: normal;
     font-style: italic;
+    color: #23518c;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    line-height: 1.4;
 }
-.intro{
-    font-style: "Monserrat", sans-serif;
-    margin-top: 25px;
-    font-size: 20px;
-    text-align: center;
-    
-}
-img{
-    justify-content: center;
-    width: 650px;
-    height: 550px;
-}
-h3,h4,h5{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    text-decoration: underline;
-}
-p{
-    text-align: left;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-style: italic;
-}
-.trama-genero
-{
-    font-style: italic;
-    margin: auto;
-    font-style: "Monserrat", sans-serif;
-    width: 600px;
-    margin-top: 35px;
-}
-.escenaiconica{
-text-align: center;
-}
-.escena-iconica{
-    width: 420px;
-    height: 405px;
-    margin-top: 25px;
-}
-.footer-texto{
-    margin-top: 50px;
-    display: inline-block;
-    margin-right: 50px;
-    font-family:"Monserrat", sans-serif;
-    font-size: 16px;
-    margin-block: 21px;
-    font-style: italic;
-    color: black;
-  
-  }
-  footer{
-   text-align: center;
-    background-color: #5ab9f0d2;
-    margin-top: 30px;
+
+.contenedor-trailerpeli {
     width: 100%;
-   
-  }
+    max-width: 750px;
+    margin: 2px auto 2px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.video-inicio {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trama-genero {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: italic;
+    color: #23518c;
+    max-width: 700px;
+    margin: 9px auto 0 auto;
+    padding: 0 20px;
+    line-height: 1.7;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(43, 43, 43, 0.24);
+    border-radius: 8px;
+}
+
+.trama-genero strong {
+    color: #23518c;
+    font-weight: bold;
+}
+
+.trama-genero em {
+    color: #0b60fd;
+    font-style: italic;
+}
+
+.escenaiconica {
+    text-align: center;
+    max-width: 420px;
+    margin: 25px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.escenaiconica:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.escena-iconica {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+.escena-iconica:hover {
+    filter: grayscale(0%);
+}

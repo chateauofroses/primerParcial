@@ -1,123 +1,240 @@
-body{
-  background-color: rgb(176, 223, 255);
-}
-header{
-    background-color: #5ab9f0d2;
-}
-h1{
-  font-family: "Monserrat", sans-serif;
-  font-style: italic; 
-   font-size: 50px;
-  color:#23518c;
-  margin-block: 21px;
-  text-align: center;
-}
-div{
-  text-align: center;
-  font-style: italic;
-}
-  
-  .elenco1{
-    width: 303px;
-    height: 455px;
-    margin-top: 20px;
-  }
-  .contenedor-imagen
-  {
+.seccion-principal-sinopsis {
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-  }
-  .sinopsis{
-    border-top: 17px solid #57a0ff;
-    border-bottom: 17px solid #57a0ff;
-    border-left: 17px solid#57a0ffc7;
-    border-right: 17px solid #57a0ffc7;
-    border-width: 8px;
-    border-radius: 120rem/15rem;
-    margin-top: 25px;
-    padding: 28px;
-    font-style: italic;
-   margin: auto;
-   font-style: "Monserrat", sans-serif;
-   width: 600px;
-   margin-top: 25px;
-  }
-  .contexto
-  {
-   font-style: "Monserrat", sans-serif;
-   font-style: italic;
-   text-align: center;
-   margin-top: 25px;
-  }
-  .peli-1,.peli-2{
-    width: 303px;
-    height: 455px;
+    gap: 25px;
+}
 
-  }
-  .contextodef
-  {
-    border-top: 17px solid #3d7aff;
-    border-bottom: 17px solid #3d7aff;
-    border-left: 17px solid#3d7affa2;
-    border-right: 17px solid #3d7affa2;
-    border-width: 8px;
-    border-radius: 120rem/15rem;
-    margin-top: 25px;
-    padding: 28px;
+.titulo-seccion-sinopsis {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8em;
+    color: #23518c;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     font-style: italic;
-   margin: auto;
-   font-style: "Monserrat", sans-serif;
-   width: 600px;
-   margin-top: 25px;
-  }
-  .peli-3{
-    width: 303px;
-    height: 455px;
-   
-  }
-  aside{
-    text-align: center;
-    margin-top: 20px;
-    font-style: "Monserrat", sans-serif;
-    font-size: 14px;
-  }
-
-
-  .analisis{
-    font-style: "Monserrat", sans-serif;
-    font-style: italic;
-    text-align: center;
-    margin-top: 25px;
-  }
-  .analisiscine
-  {
-    border-top: 17px solid #2b6effe1;
-    border-bottom: 17px solid #2b6effe1;
-    border-left: 17px solid #2b6effbb;
-    border-right: 17px solid #2b6effbb;
-    border-width: 8px;
-    border-radius: 120rem/15rem;
-    margin-top: 25px;
-    padding: 28px;
-    font-style: italic;
-   margin: auto;
-   font-style: "Monserrat", sans-serif;
-   width: 600px;
-   margin-top: 25px;
-  }
-  .footer-texto{
-    margin-top: 50px;
-    display: inline-block;
-    margin-right: 50px;
-    font-family:"Monserrat", sans-serif;
-    font-size: 16px;
-    margin-block: 21px;
-    font-style: italic;
-   
-  
-  }
-  footer{
-   text-align: center;
-    background-color: #5ab9f0d2;
-    margin-top: 30px;
     width: 100%;
-  }
+}
+
+.articulo-sinopsis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.contenedor-imagen-sinopsis-principal {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-principal-sinopsis {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-principal-sinopsis:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.texto-sinopsis-principal {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #444;
+    text-align: justify;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.texto-sinopsis-principal strong {
+    color: #23518c;
+    font-weight: bold;
+}
+
+.texto-sinopsis-principal em {
+    color: #0b60fd;
+    font-style: italic;
+}
+
+.aside-abba {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+.texto-abba {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    color: #8B008B;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.enlace-abba {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.enlace-abba:hover {
+    background-color: #e04a9e;
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.seccion-contexto {
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.articulo-contexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.titulo-contexto {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    color: #23518c;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+    width: 100%;
+}
+
+.contenedor-imagenes-contexto {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.imagen-contexto {
+    width: 48%;
+    max-width: 350px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-contexto:hover {
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.texto-contexto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05em;
+    color: #555;
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.seccion-impacto {
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.articulo-impacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.titulo-analisis {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2em;
+    color: #23518c;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: italic;
+    width: 100%;
+}
+
+.contenedor-imagen-impacto {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-impacto {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imagen-impacto:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.texto-analisis {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05em;
+    color: #555;
+    text-align: justify;
+    line-height: 1.7;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
