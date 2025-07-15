@@ -280,3 +280,117 @@
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
+@media (max-width: 850px) {
+    .titulo-principal,
+    .areas-importantes,
+    .titulo-prod {
+        font-size: 1.8rem;
+        margin: 1.5rem auto 1rem auto;
+        padding: 0 10px;
+    }
+
+    .contenedor-lugaresprinc {
+        flex-direction: column;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .card-destino {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+
+    .card-destino .isla-destino {
+        font-size: 1.5rem;
+        margin: 1rem 0 0.8rem;
+    }
+
+    .card-destino .marco-foto {
+        height: 200px;
+    }
+
+    .card-destino .descripcion-destino {
+        font-size: 0.95rem;
+        padding: 10px 20px;
+    }
+
+    .card-destino aside {
+        padding: 10px 20px;
+    }
+
+    .contenedor-lugares-importantes {
+        padding: 15px;
+        margin: 2rem auto;
+        max-width: 100%;
+    }
+
+    .card-lugar-importante {
+        gap: 15px;
+    }
+
+    .fotos-importante {
+        flex-direction: column;
+        gap: 10px;
+        max-width: 100%;
+    }
+
+    .fotos-importante img {
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+    }
+
+    .card-lugar-importante .texto-lugares {
+        font-size: 1rem;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+
+    .detalles-direc-prod {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .card-prod,
+    .card-equipo {
+        min-width: unset;
+        max-width: 100%;
+        flex: unset;
+    }
+
+    .card-prod .sub-prod,
+    .card-equipo .sub-equipo {
+        font-size: 1.4rem;
+    }
+
+    .card-prod .descripcion-prod {
+        font-size: 0.95rem;
+    }
+
+    .ficha-persona {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        max-width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .ficha-persona .foto-persona {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ficha-persona .nombre-persona {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .ficha-persona .biografia-persona {
+        font-size: 0.9rem;
+        padding-right: 0;
+        text-align: center;
+    }
+}

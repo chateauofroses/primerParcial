@@ -2,3 +2,9 @@
     text-align: center;
     margin-top: 180px;
 }
+@media (max-width: 850px) {
+    .texto-confirmacion {
+        margin-top: 80px;
+        padding: 0 15px;
+    }
+}

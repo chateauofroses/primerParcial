@@ -65,7 +65,7 @@
     width: 100%;
     height: 280px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
@@ -85,7 +85,7 @@
 }
 
 .contenedor-imagenes-actor:hover .imagen-actor {
-    transform: scale(1.1);
+    transform: scale(1.05);
     filter: brightness(0.8);
 }
 
@@ -146,4 +146,70 @@
     background-color: #e04a9e;
     transform: translateY(-3px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 850px) {
+    .seccion-reparto {
+        margin: 1.5rem auto;
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .titulo-seccion {
+        font-size: 2em;
+        margin-bottom: 15px;
+        padding: 0 10px;
+    }
+
+    .contenedor-cards-reparto {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .ficha-actor {
+        padding: 20px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .nombre-actor {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .contenedor-imagenes-actor {
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+        margin-bottom: 15px;
+        justify-content: center;
+    }
+
+    .imagen-actor {
+        width: 80%;
+        max-width: 200px;
+        height: 180px;
+    }
+
+    .biografia-actor {
+        font-size: 0.9em;
+        padding: 0 10px;
+        text-align: left;
+    }
+
+    .show-audiciones {
+        padding: 20px;
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .texto-audiciones {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+
+    .enlace-audiciones {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
 }

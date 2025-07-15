@@ -238,3 +238,85 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+@media (max-width: 850px) {
+    .seccion-principal-sinopsis,
+    .seccion-contexto,
+    .seccion-impacto {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .titulo-seccion-sinopsis,
+    .titulo-contexto,
+    .titulo-analisis {
+        font-size: 2.2em;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+
+    .articulo-sinopsis,
+    .articulo-contexto,
+    .articulo-impacto {
+        gap: 15px;
+    }
+
+    .contenedor-imagen-sinopsis-principal,
+    .contenedor-imagen-impacto {
+        max-width: 100%;
+        margin: 0 auto 20px auto;
+    }
+
+    .imagen-principal-sinopsis,
+    .imagen-impacto {
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .imagen-principal-sinopsis:hover,
+    .imagen-impacto:hover {
+        transform: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .texto-sinopsis-principal,
+    .texto-contexto,
+    .texto-analisis {
+        font-size: 1em;
+        padding: 0 10px;
+        max-width: 100%;
+    }
+
+    .aside-abba {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .texto-abba {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    .enlace-abba {
+        padding: 8px 18px;
+        font-size: 0.85em;
+    }
+
+    .contenedor-imagenes-contexto {
+        flex-direction: column;
+        gap: 15px;
+        max-width: 100%;
+    }
+
+    .imagen-contexto {
+        width: 90%;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .imagen-contexto:hover {
+        transform: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+}
